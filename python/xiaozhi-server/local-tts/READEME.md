@@ -12,7 +12,7 @@
   GPT_SOVITS_V1:
     # 定义TTS API类型
     #启动tts方法：
-    #python api_v2.py -a 127.0.0.1 -p 9880 -c GPT_SoVITS/configs/caixukun.yaml
+    #python api.py
     type: gpt_sovits_v1
     url: "http://127.0.0.1:9880/"
     output_file: tmp/
