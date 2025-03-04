@@ -6,7 +6,9 @@
 
 由于本人的电脑性能有限, 所以使用v1接口, 默认可以使用v2接口
 
-配置文件加一个配置
+## 小智服务器
+
+服务器的配置文件需要添加一个配置
 
 ```python
   GPT_SOVITS_V1:
@@ -28,7 +30,15 @@
     inp_refs: []
 ```
 
+之后把v1的文件加入tts文件夹里面
+
+## GPT-sovits
+
 整合包在config.py里面加入你的模型, 
+
+![image-20250304095852653](https://picture-01-1316374204.cos.ap-beijing.myqcloud.com/picture/202503040958717.png)
+
+之后可以使用`runtime\python.exe api.py`启动v1(或使用我的bat文件), 放在GPT-sovits的根目录里面
 
 > 原模型链接
 >
