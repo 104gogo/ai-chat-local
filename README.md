@@ -71,6 +71,10 @@
 
 可以使用Dify图形化配置使用
 
++ 其他
+ESP-IDF/xiaozhi-alarm 实现一个可以由小智控制的闹钟
+ESP-IDF/emotion  替换表情相关
+
 ## 不同版本的文件
 
 ### v0.1 0.2
