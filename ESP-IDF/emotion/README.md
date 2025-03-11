@@ -6,10 +6,22 @@
 
 [免费在线图片改尺寸工具 - docsmall](https://docsmall.com/image-resize)
 
-需要把图片压缩一下, 否则esp32存不下来以及会出现刷新卡的问题, 我这里使用的是64x64, 也提供了128x128的版本
+需要把图片压缩一下, 否则esp32存不下来以及会出现刷新卡的问题, 我这里使用的是64x64, 也提供了128x128的版本, 图片建议使用透明背景或者白色背景的
 
 [Image Converter — LVGL](https://lvgl.io/tools/imageconverter)
 
-压缩以后得图片按照原本的图片格式进行命名
+压缩以后得图片按照原本的图片格式进行命名, 实际的文件名和情感是一一对应的
 
 ![image-20250310200420020](https://picture-01-1316374204.cos.ap-beijing.myqcloud.com/lenovo-picture/202503102004163.png)
+
+## 问题
+
++ 没有对应的文件夹
+
+答: 编译以后下载时候才有的文件
+
++ 改了以后还是原来的图片
+
+看一下你的板子是32的还是64的表情, 我使用的是64的
+
+![image-20250311123829935](https://picture-01-1316374204.cos.ap-beijing.myqcloud.com/lenovo-picture/202503111238593.png)
