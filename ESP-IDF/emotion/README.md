@@ -25,3 +25,17 @@
 看一下你的板子是32的还是64的表情, 我使用的是64的
 
 ![image-20250311123829935](https://picture-01-1316374204.cos.ap-beijing.myqcloud.com/lenovo-picture/202503111238593.png)
+
++ 表情的大小有限制
+
+![image-20250313115333603](https://picture-01-1316374204.cos.ap-beijing.myqcloud.com/lenovo-picture/202503131153788.png)
+
++ 修改文字显示
+
+![image-20250313115547253](https://picture-01-1316374204.cos.ap-beijing.myqcloud.com/lenovo-picture/202503131155323.png)
+
+默认的长文本是换行, 可以使用滚动的方法减少显示空间
+
+![image-20250313115638298](https://picture-01-1316374204.cos.ap-beijing.myqcloud.com/lenovo-picture/202503131156519.png)
+
+替换成LV_LABEL_LONG_SCROLL_CIRCULAR
