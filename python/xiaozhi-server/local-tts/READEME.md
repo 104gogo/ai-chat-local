@@ -1,5 +1,19 @@
 # 小智本地TTS
 
+## 修改模型
+
+> [GPT-SoVITS项目的API改良与使用_gpt-sovits api-CSDN博客](https://blog.csdn.net/AAI666666/article/details/136554163)
+
+```bash
+.\runtime\python api2.py -s "SoVITS_weights/你的模型名" -g "GPT_weights/你的模型名" -dr "参考音频路径和名称" -dt "参考音频的文字内容，使用双引号括起来，确保文字内容里没有双引号" -dl zh|ja|en三者选一
+```
+
+v2版本的默认模型需要在![30e1653496513bca5dcf7cc959b91346](https://picture-01-1316374204.cos.ap-beijing.myqcloud.com/lenovo-picture/202503231624370.png)这个文件里面改
+
+
+
+
+
 使用[小智](https://github.com/78/xiaozhi-esp32)的[开源服务器](https://github.com/xinnan-tech/xiaozhi-esp32-server), 用里面的tts接口实现, 模型使用[花儿不哭大佬](https://space.bilibili.com/5760446)的平台训练的模型(链接在最后)
 
 > 我使用的模型和音频链接：https://pan.quark.cn/s/cbe45eb37f12
