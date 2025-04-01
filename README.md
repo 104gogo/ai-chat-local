@@ -4,7 +4,7 @@
 >
 > 更新时间: 2025-2-14
 > 
->**注: 开源服务器已经很完善了, 想直接使用对话的模式查知识库和搜索的可以直接用开源服务器, 把LLM改为Dify, 对话效果更好 !!!**
+>**注: 开源服务器已经很完善了, 想直接使用对话的模式查知识库和搜索的可以直接用开源服务器, 把开源服务器LLM改为Dify, 对话效果更好 !!!这个文档目前只记录比较早期的项目, 后期的文档放在对应的子目录里面**
 > 
 > 做的练手的小玩意, 如有更好的实现方案欢迎交流1458612070@qq.com, 交流QQ群: 719932592
 > 给个![0B533B9D](https://github.com/user-attachments/assets/83214bfa-0ffd-49ad-b87f-9b5c4d3ca938)吧
@@ -15,8 +15,6 @@
 > 链接：https://pan.quark.cn/s/0d28fe813112 **
 >
 > ==============================================================
-
-
 
 ## 简介
 
@@ -71,23 +69,27 @@
 
 可以使用Dify图形化配置使用
 
-+ 其他
-ESP-IDF/xiaozhi-alarm 实现一个可以由小智控制的闹钟
-ESP-IDF/emotion  替换表情相关
++ 其他见相关文件的文档
+
+### 文件目录
 
 ## 不同版本的文件
 
-### v0.1 0.2
-
-使用ESP-IDF文件夹下面的chat_ai文件, 以及python文件夹的classfy-model和server-model
-
-### v0.3
-
-使用python文件夹的classfy-model和server-model和ESP-IDF的xiaozhi文件
-
-### v0.4
-
-只使用ESP-IDF的xiaozhi文件夹
++ 代码分析: 我在分析小智相关代码的时候记录的笔记以及服务器通读时候的框图
++ ESP-IDF目录: 记录所有esp32相关的文件
++ + 地对话助手, 可以使用联网搜索 
+    + emotion: 小智换表情相关
+    + xizo-zhi: 早期项目实现小智联网的功能(对话效果等不好, 现在已经弃用了)
+    + xiaozhi-alarm: 目前主要更新的项目, 主分支是一个闹钟的示例, touch分支实现嘉立创开发板多个外设的移植以及使用, 包括体感触觉等
++ python: 主要是服务期相关的项目
++ + classfy-model: 本地分类模型的训练(可以使用大模型来达到相同的效果)仅做教学使用
+    + computer_char: 使用电脑实现的本地音频对话助手
+    + Dify: 早期项目实现小智联网的功能的Dify部分(对话效果等不好, 现在已经弃用了)
+    + server-model: 基于嘉立创示例实现的本地对话助手的服务器端
+    + xiaozhi-server: 开源服务器相关的改动, 主要更维护部分
+    + + local-tts: 实现自定义音色
+        + vision: 视频对话
+        + 一个连接各种服务时候踩坑的帮助文档(不断维护中)
 
 ## Windows环境搭建
 
@@ -537,7 +539,6 @@ S3使用16M和无后缀的分区表partitions.csv
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=XuSenfeng/ai-chat-local&type=Date)](https://star-history.com/#XuSenfeng/ai-chat-local&Date)
-
 
 
 
