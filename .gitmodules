@@ -4,3 +4,6 @@
 [submodule "ESP-IDF/xiaozhi-alarm"]
 	path = ESP-IDF/xiaozhi-alarm
 	url = git@github.com:XuSenfeng/xiaozhi-alarm.git
+[submodule "python/xiaozhi-server/vision"]
+	path = python/xiaozhi-server/vision
+	url = git@github.com:XuSenfeng/xiaozhi-server-vision.git
